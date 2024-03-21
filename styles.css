@@ -1,0 +1,64 @@
+:root {
+  --background-color: #f0f0f0;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: Roboto, sans-serif;
+}
+
+.container{
+  padding-top: 50px;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.div-input{
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.label {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+#text-input{
+  padding: 4px;
+}
+
+.check-btn{
+  padding: 4px 10px;
+  cursor: pointer;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: #f0f0f0;
+}
+
+.div-result{
+  text-align: center;
+}
+
+.input-text-result{
+  font-size: 18px;
+  color: brown;
+}
